@@ -22,9 +22,7 @@ const page = () => {
           {events.map((event) => (
             <li key={event.title}>
               <EventCard {...event} />
-            </li>
-          
-          
+            </li>          
           ))}
         </ul>
       </div>
